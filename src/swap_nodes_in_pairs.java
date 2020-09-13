@@ -39,7 +39,7 @@ public class swap_nodes_in_pairs {
 
         ListNode prevNode = dummy;
 
-        while (head != null || head.next != null) {
+        while (head != null && head.next != null) {
             ListNode firstNode = head;
 
             ListNode secondNode = head.next;

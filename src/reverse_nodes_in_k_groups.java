@@ -25,7 +25,7 @@ public class reverse_nodes_in_k_groups {
         //p指向子问题的连接情况
         ListNode p = reverseKGroup(curr, k);
 
-        while (k > 0){
+        while (count > 0){
             ListNode next = head.next;
             head.next = p;
             p = head;
